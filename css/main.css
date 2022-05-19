@@ -57,6 +57,53 @@ body{
   margin-bottom: 32px;
 }
 
+.projectSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.sectionTitel{
+  font-size: 70px;
+  font-family: Gilroy-Bold;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 88px;
+  border-bottom: solid 4px #34C88A;
+}
+
+.pTitle{
+  text-align: center;
+  font-size: 70px;
+  font-family: Gilroy-Bold;
+  margin-bottom: 50px;
+}
+
+.pBtn a{
+  color: white;
+  background-color: #34C88A;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 14px 55px;
+  border-radius: 50px;
+}
+
+.pBtn a:hover{
+  background-color: #163F59;
+}
+
+.pBtn{
+  text-align: center;
+}
+
+.pImage{
+  margin-bottom: 70px;
+}
+
+.projectSection{
+   margin-bottom: 184px;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ SSM ]*/
 @media (max-width: 480px) {
