@@ -104,6 +104,41 @@ body{
    margin-bottom: 184px;
 }
 
+.infoSecTitle{
+  font-size: 70px;
+  font-family: Gilroy-Bold;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 62px;
+  border-bottom: solid 4px #34C88A; 
+}
+
+.infoSlog{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.infoRow{
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 180px;
+  row-gap: 115px;
+}
+
+.infotitle{
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 32px;
+  font-family: Gilroy-Bold;
+}
+
+.infoDesc{
+  text-align: center;
+  font-size: 18px;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ SSM ]*/
 @media (max-width: 480px) {
