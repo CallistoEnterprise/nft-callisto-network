@@ -98,6 +98,7 @@ body{
 
 .pImage{
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .projectSection{
@@ -141,24 +142,11 @@ body{
 
 /*//////////////////////////////////////////////////////////////////
 [ SSM ]*/
-@media (max-width: 480px) {
-  .m-0-ssm {margin: 0;}
-  .m-lr-0-ssm {margin-left: 0; margin-right: 0;}
-  .m-lr-15-ssm {margin-left: 15px; margin-right: 15px;}
-  .m-l-0-ssm {margin-left: 0;}
-  .m-r-0-ssm {margin-right: 0;}
-  .m-l-15-ssm {margin-left: 15px;}
-  .m-r-15-ssm {margin-right: 15px;}
-
-  .p-0-ssm {padding: 0;}
-  .p-lr-0-ssm {padding-left: 0; padding-right: 0;}
-  .p-lr-15-ssm {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-ssm {padding-left: 0;}
-  .p-r-0-ssm{padding-right: 0;}
-  .p-l-15-ssm {padding-left: 15px;}
-  .p-r-15-ssm {padding-right: 15px;}
-
-  .w-full-ssm {width: 100%;}
-  /*---------------------------------------------*/
-
+@media (max-width: 740px) {
+  .infoRow{
+    flex-wrap: wrap;
+  }
+  .projectSection{
+    grid-template-columns: 1fr;
+  }
 }
